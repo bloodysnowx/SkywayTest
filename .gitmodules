@@ -1,0 +1,3 @@
+[submodule "submodules/SkywaySDK"]
+	path = submodules/SkywaySDK
+	url = git@github.com:nttcom/SkyWay-iOS-SDK.git
