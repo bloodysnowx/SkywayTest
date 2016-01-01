@@ -26,6 +26,9 @@
 		0D64B6201C36A5080021A1A6 /* SkywayConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D64B61F1C36A5080021A1A6 /* SkywayConnectionManager.swift */; };
 		0D64B6231C36B1C60021A1A6 /* SKWPeerOptionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D64B6221C36B1C60021A1A6 /* SKWPeerOptionExtension.swift */; };
 		0D64B6251C36B4D90021A1A6 /* SKWPeerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D64B6241C36B4D90021A1A6 /* SKWPeerExtension.swift */; };
+		0D64B6271C36D95D0021A1A6 /* SKWMediaConstraintsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D64B6261C36D95D0021A1A6 /* SKWMediaConstraintsExtension.swift */; };
+		0D64B6291C36DAB80021A1A6 /* SKWNavigatorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D64B6281C36DAB80021A1A6 /* SKWNavigatorExtension.swift */; };
+		0D64B62B1C36E88B0021A1A6 /* SKWMediaConnectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D64B62A1C36E88B0021A1A6 /* SKWMediaConnectionExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +76,9 @@
 		0D64B61F1C36A5080021A1A6 /* SkywayConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkywayConnectionManager.swift; sourceTree = "<group>"; };
 		0D64B6221C36B1C60021A1A6 /* SKWPeerOptionExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKWPeerOptionExtension.swift; sourceTree = "<group>"; };
 		0D64B6241C36B4D90021A1A6 /* SKWPeerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKWPeerExtension.swift; sourceTree = "<group>"; };
+		0D64B6261C36D95D0021A1A6 /* SKWMediaConstraintsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKWMediaConstraintsExtension.swift; sourceTree = "<group>"; };
+		0D64B6281C36DAB80021A1A6 /* SKWNavigatorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKWNavigatorExtension.swift; sourceTree = "<group>"; };
+		0D64B62A1C36E88B0021A1A6 /* SKWMediaConnectionExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKWMediaConnectionExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +213,9 @@
 			children = (
 				0D64B6221C36B1C60021A1A6 /* SKWPeerOptionExtension.swift */,
 				0D64B6241C36B4D90021A1A6 /* SKWPeerExtension.swift */,
+				0D64B6261C36D95D0021A1A6 /* SKWMediaConstraintsExtension.swift */,
+				0D64B6281C36DAB80021A1A6 /* SKWNavigatorExtension.swift */,
+				0D64B62A1C36E88B0021A1A6 /* SKWMediaConnectionExtension.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -342,14 +351,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D64B6271C36D95D0021A1A6 /* SKWMediaConstraintsExtension.swift in Sources */,
 				0D64B61C1C36A3660021A1A6 /* PeerListVC.swift in Sources */,
 				0D64B6201C36A5080021A1A6 /* SkywayConnectionManager.swift in Sources */,
 				0D64B61E1C36A4F90021A1A6 /* SkywayConnection.swift in Sources */,
 				0D4DC4681C355C5500175781 /* MainViewController.swift in Sources */,
+				0D64B6291C36DAB80021A1A6 /* SKWNavigatorExtension.swift in Sources */,
 				0D4DC4661C355C5500175781 /* AppDelegate.swift in Sources */,
 				0D64B6231C36B1C60021A1A6 /* SKWPeerOptionExtension.swift in Sources */,
 				0D64B61A1C36A33E0021A1A6 /* MediaConnectionVC.swift in Sources */,
 				0D64B6251C36B4D90021A1A6 /* SKWPeerExtension.swift in Sources */,
+				0D64B62B1C36E88B0021A1A6 /* SKWMediaConnectionExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
