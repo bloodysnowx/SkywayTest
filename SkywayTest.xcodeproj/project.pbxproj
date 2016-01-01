@@ -20,6 +20,12 @@
 		0D64B6131C35659B0021A1A6 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D64B6071C3564AA0021A1A6 /* libstdc++.6.0.9.tbd */; };
 		0D64B6141C3565AE0021A1A6 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D64B6091C3564BB0021A1A6 /* libc++.tbd */; };
 		0D64B6151C3565E20021A1A6 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D64B60B1C3564CC0021A1A6 /* libicucore.tbd */; };
+		0D64B61A1C36A33E0021A1A6 /* MediaConnectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D64B6191C36A33E0021A1A6 /* MediaConnectionVC.swift */; };
+		0D64B61C1C36A3660021A1A6 /* PeerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D64B61B1C36A3660021A1A6 /* PeerListVC.swift */; };
+		0D64B61E1C36A4F90021A1A6 /* SkywayConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D64B61D1C36A4F90021A1A6 /* SkywayConnection.swift */; };
+		0D64B6201C36A5080021A1A6 /* SkywayConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D64B61F1C36A5080021A1A6 /* SkywayConnectionManager.swift */; };
+		0D64B6231C36B1C60021A1A6 /* SKWPeerOptionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D64B6221C36B1C60021A1A6 /* SKWPeerOptionExtension.swift */; };
+		0D64B6251C36B4D90021A1A6 /* SKWPeerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D64B6241C36B4D90021A1A6 /* SKWPeerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +67,12 @@
 		0D64B60D1C3564D40021A1A6 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		0D64B60F1C35651E0021A1A6 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		0D64B6111C3565650021A1A6 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		0D64B6191C36A33E0021A1A6 /* MediaConnectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaConnectionVC.swift; sourceTree = "<group>"; };
+		0D64B61B1C36A3660021A1A6 /* PeerListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeerListVC.swift; sourceTree = "<group>"; };
+		0D64B61D1C36A4F90021A1A6 /* SkywayConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkywayConnection.swift; sourceTree = "<group>"; };
+		0D64B61F1C36A5080021A1A6 /* SkywayConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkywayConnectionManager.swift; sourceTree = "<group>"; };
+		0D64B6221C36B1C60021A1A6 /* SKWPeerOptionExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKWPeerOptionExtension.swift; sourceTree = "<group>"; };
+		0D64B6241C36B4D90021A1A6 /* SKWPeerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKWPeerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +130,11 @@
 		0D4DC4641C355C5500175781 /* SkywayTest */ = {
 			isa = PBXGroup;
 			children = (
+				0D64B6211C36B1A70021A1A6 /* Util */,
+				0D64B6181C36A2E40021A1A6 /* View */,
+				0D64B6171C36A2DA0021A1A6 /* Model */,
+				0D64B6161C36A2C00021A1A6 /* VC */,
 				0D4DC4651C355C5500175781 /* AppDelegate.swift */,
-				0D4DC4671C355C5500175781 /* MainViewController.swift */,
 				0D4DC4691C355C5500175781 /* Main.storyboard */,
 				0D4DC46C1C355C5500175781 /* Assets.xcassets */,
 				0D4DC46E1C355C5500175781 /* LaunchScreen.storyboard */,
@@ -159,6 +174,41 @@
 				0D64B6071C3564AA0021A1A6 /* libstdc++.6.0.9.tbd */,
 			);
 			name = frameworks;
+			sourceTree = "<group>";
+		};
+		0D64B6161C36A2C00021A1A6 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				0D4DC4671C355C5500175781 /* MainViewController.swift */,
+				0D64B6191C36A33E0021A1A6 /* MediaConnectionVC.swift */,
+				0D64B61B1C36A3660021A1A6 /* PeerListVC.swift */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		0D64B6171C36A2DA0021A1A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0D64B61D1C36A4F90021A1A6 /* SkywayConnection.swift */,
+				0D64B61F1C36A5080021A1A6 /* SkywayConnectionManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0D64B6181C36A2E40021A1A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0D64B6211C36B1A70021A1A6 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				0D64B6221C36B1C60021A1A6 /* SKWPeerOptionExtension.swift */,
+				0D64B6241C36B4D90021A1A6 /* SKWPeerExtension.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,8 +342,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D64B61C1C36A3660021A1A6 /* PeerListVC.swift in Sources */,
+				0D64B6201C36A5080021A1A6 /* SkywayConnectionManager.swift in Sources */,
+				0D64B61E1C36A4F90021A1A6 /* SkywayConnection.swift in Sources */,
 				0D4DC4681C355C5500175781 /* MainViewController.swift in Sources */,
 				0D4DC4661C355C5500175781 /* AppDelegate.swift in Sources */,
+				0D64B6231C36B1C60021A1A6 /* SKWPeerOptionExtension.swift in Sources */,
+				0D64B61A1C36A33E0021A1A6 /* MediaConnectionVC.swift in Sources */,
+				0D64B6251C36B4D90021A1A6 /* SKWPeerExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
